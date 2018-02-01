@@ -2,14 +2,22 @@
 <html>
     <head>
         <title>Select Product</title>
+        <style>
+    .center {
+    text-align: center;
+    border: 3px solid green;
+    }
+        </style>
         
         <!--jQuery-->
         <script src ="https://ajax.googleapps.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src ="text/javascript" src ="cost_calc.js"></script>
         
+         
+        
     </head>
     <body>
-        <h4> Select a product</h4>
+        <h3 Select a product</h3>
         
         <br/>
         
@@ -27,7 +35,6 @@
             <input type ="radio" id="aws" name="product" onCLick="disablebtnProceed()"/>
             AWS @ $300
         </Label>
-           
            
             <br/>
             <br/>
