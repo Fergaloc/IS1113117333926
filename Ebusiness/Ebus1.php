@@ -11,7 +11,10 @@
         
     </head>
     <body>
-        <h3 Select a product</h3>
+        
+        <body  style="background-color:AliceBlue; text-align:center" >
+        
+        <h3 Select Product </h3>
         
         <br/>
         
@@ -34,14 +37,15 @@
             <br/>
             
         <label for="subtotal">
-            Sub Total
+            Sub Total: 
             <input type="text" id="subtotal" value="0.00" readonly/>
         </label>
             
             <br/>
+            <br/>
             
         <label for="total">
-            Total
+            Total:
             <input type="text" id="total" value="0.00" readonly/>
         </label>    
             
