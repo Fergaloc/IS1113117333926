@@ -19,3 +19,4 @@ function validateDetails(){
 
 function enablebtnPurchase(){
 
+}
