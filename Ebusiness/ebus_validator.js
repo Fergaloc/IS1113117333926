@@ -6,7 +6,7 @@ function validateDetails(){
     
     pin = document.getElementById("user_pin").value;
     
-    if (pin==""){
+    if (pin=" "){
         alert("Please enter your PIN");
         }
     else if (String(pin).length<4){
@@ -21,6 +21,7 @@ function enablebtnPurchase(){
     $('#btnPurchase').prop('disabled',false);
 
 }
+
 function disablebtnPurchase(){
-    $('#btnPurchase').prop('enabled',true);
+    $('#btnPurchase').prop('disabled',true);
 }
