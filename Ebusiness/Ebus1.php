@@ -32,15 +32,15 @@
               <br/>
               
               <label for="Cloud 9">
-                <input type="radio" id="cloud 9" name="product" onClick="disablebtnProceed()"/>
+                <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
                 Cloud 9 @ $400
               </label>
               
              
              <br/> 
               
-              <label for="Google">
-                <input type="radio" id="google" name="product" onClick="disablebtnProceed()"/>
+              <label for="Gmail">
+                <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
                 Google @ $500
               </label>
               

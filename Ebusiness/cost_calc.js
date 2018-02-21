@@ -1,34 +1,20 @@
 /* global $ */
 
-function calcSub(){
+var argSubTotal;
 
-    var Discount
-    var argTotal
-    var vat
-    var argSubTotal;
-    
-    
+function calcSub(){
     
      if(document.getElementById('salesforce').checked) {
       argSubTotal = 100;
-    
-     }else if(document.getElementById('Gmail').checked {
+     }else if(document.getElementById('gmail').checked) {
       argSubTotal = 500;
-    
- }else if(document.getElementById('cloud9').checked {
+    }else if(document.getElementById('cloud9').checked) {
         argSubTotal = 400;
-    
- }else if(document.getElementById('aws').checked {
-        argSubTotal = 300
-    
+    }else if (document.getElementById('aws').checked) 
+        argSubTotal = 300;
     
     display(argSubTotal);
 }
-
-
-
-
-
 
 
 function display(parm1){
