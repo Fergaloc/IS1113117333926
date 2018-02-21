@@ -11,7 +11,11 @@ session_start();
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
     </head>
-    <body>
+    
+    
+    <body style="background-color:AliceBlue; text-align:center" >
+        
+        
         <h4>Please enter your payment details</h4>
         
         
