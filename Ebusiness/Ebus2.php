@@ -20,7 +20,7 @@ session_start();
         
         
             <form action="Ebus3.php" method="POST">
-
+                                
                     <label for="user_pin">PIN</label>
                     
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">

@@ -2,8 +2,8 @@
 
 var argSubTotal;
 var Discount;
-var Vat
-var Total
+var Vat;
+var Total;
 
 
 function calcSub(){
@@ -20,36 +20,33 @@ function calcSub(){
     calcDisVatTotal();
 }
         
-  enablebtnProceed();
-
-
-
-
+  
 
 function calcDisVatTotal(parmSubTotal){
     
      if(document.getElementById('salesforce').checked) {
       Discount = 5;
       Vat = 9.5;
-      Total = 104.5;
+      Total = 104.5
       
      }else if(document.getElementById('gmail').checked) {
      Discount= 25;
      Vat = 47.5;
-     Total = 522.5;
+     Total = 522.5
     }else if(document.getElementById('cloud9').checked) {
         Discount= 20;
         Vat = 38;
-        Total = 418;
-    }else 
+        Total = 418
+    }else{
         Discount = 15;
         Vat = 27.5;
-        Total = 302.5;
-        
+        Total = 302.5
+    }
         display(argSubTotal,Discount,Vat,Total);
+        enablebtnProceed();
 }
     
-
+      
 
 function display(parm1,parm2,parm3,parm4){
     
