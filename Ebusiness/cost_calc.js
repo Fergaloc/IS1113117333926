@@ -17,41 +17,34 @@ function calcSub(){
     }else if (document.getElementById('aws').checked) 
         argSubTotal = 300;
     
-    calcDisVatTotal()
+    calcDisVatTotal();
 }
         
   enablebtnProceed();
 
 
 
-function enablebtnProceed(){
-    $('#btnProceed').prop('disabled', false);
-}
-
-function disablebtnProceed() {
-    $('#btnProceed').prop('disabled', true);
-}
 
 
-function calcDisVatTotal(){
+function calcDisVatTotal(parmSubTotal){
     
      if(document.getElementById('salesforce').checked) {
-      Discount = 5
-      Vat = 9.5
+      Discount = 5;
+      Vat = 9.5;
       Total = 104.5;
       
      }else if(document.getElementById('gmail').checked) {
-     Discount= 25
-     Vat = 47.5
+     Discount= 25;
+     Vat = 47.5;
      Total = 522.5;
     }else if(document.getElementById('cloud9').checked) {
-        Discount= 20
-        Vat = 38
+        Discount= 20;
+        Vat = 38;
         Total = 418;
     }else 
-        Discount = 15
-        Vat = 27.5
-        Total = 302.5
+        Discount = 15;
+        Vat = 27.5;
+        Total = 302.5;
         
         display(argSubTotal,Discount,Vat,Total);
 }
@@ -65,4 +58,12 @@ function display(parm1,parm2,parm3,parm4){
     document.getElementById("Vat").value = parm3;
     document.getElementById("total").value = parm4;
     
+}
+
+function enablebtnProceed(){
+    $('#btnProceed').prop('disabled', false);
+}
+
+function disablebtnProceed() {
+    $('#btnProceed').prop('disabled', true);
 }
