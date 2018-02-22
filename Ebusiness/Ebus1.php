@@ -6,7 +6,7 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
-
+      
     </head>
     
     <body style="background-color:AliceBlue; text-align:center" >
@@ -14,11 +14,15 @@
             <h3>Customer Details</h3>
             
             <br/>
+
+
+            <form method="POST" action="Ebus2.php">
+              
         
-        
+              
               <label for="Full Name">
+                <input type="text" id="Full Name" name="Full Name" />
                 Full Name
-                <input type="text" id="Name" name="Full Name"/>
               </label>
               <br/>
               <label for="Email">
@@ -40,21 +44,17 @@
                 Postcode
                 <input type="text" id="Postcode" name="Postcode"/>
               </label>
-              
-              
-              
-              
-              
               <br/>
               <label for="City">
                 City
                 <input type="text" id="City" name="City"/>
               </label>
+            
               
           <br/>
-          
-          
-<!-- Country dropdown list copied from http://snipplr.com/view/50005/country-dropdown-list-with-country-name-as-value/ -->
+            
+            
+            <!-- Country dropdown list copied from http://snipplr.com/view/50005/country-dropdown-list-with-country-name-as-value/ -->
 <label for="Country">Country</label>
 <select>
     <option value="Afghanistan">Afghanistan</option>
@@ -161,7 +161,7 @@
     <option value="Indonesia">Indonesia</option>
     <option value="Iran">Iran (Islamic Republic of)</option>
     <option value="Iraq">Iraq</option>
-    <option value="Ireland">Ireland</option>
+    <option value="Ireland" selected>Ireland</option>
     <option value="Israel">Israel</option>
     <option value="Italy">Italy</option>
     <option value="Jamaica">Jamaica</option>
@@ -176,7 +176,7 @@
     <option value="Kyrgyzstan">Kyrgyzstan</option>
     <option value="Lao">Lao People's Democratic Republic</option>
     <option value="Latvia">Latvia</option>
-    <option value="Lebanon" selected>Lebanon</option>
+    <option value="Lebanon">Lebanon</option>
     <option value="Lesotho">Lesotho</option>
     <option value="Liberia">Liberia</option>
     <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
@@ -296,14 +296,10 @@
     <option value="Yugoslavia">Yugoslavia</option>
     <option value="Zambia">Zambia</option>
     <option value="Zimbabwe">Zimbabwe</option>
-</select>
-
-
-
-
-
-
-            <form method="POST" action="Ebus2.php">
+</select>  
+              
+              <br/>
+              
               
           <h3>Select Product</h3>
               
@@ -375,7 +371,7 @@
             
             <br/>
             <button onClick="calcSub()""calcDisVatTotal()"   >Calculate Cost</button>
-            <a role="button" href="Ebus1.php">Clear Choice</a>
+            <a role="button" href="Ebus1.php" >Clear Choice</a> <
     
     </body>
 
