@@ -43,6 +43,8 @@ li a:hover:not(.active) {
 }
 
 
+
+
 </style>
     
         
@@ -68,7 +70,7 @@ li a:hover:not(.active) {
             <form method="POST" action="Ebus2.php">
               
         
-              
+             
               <label for="FullName">
                 Full Name
                 <input type="text" id="FullName" name="FullName" />
