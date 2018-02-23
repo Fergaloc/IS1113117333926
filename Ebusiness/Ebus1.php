@@ -20,9 +20,9 @@
               
         
               
-              <label for="Full Name">
-                <input type="text" id="Full Name" name="Full Name" />
+              <label for="FullName">
                 Full Name
+                <input type="text" id="FullName" name="FullName" />
               </label>
               <br/>
               <label for="Email">
@@ -370,7 +370,7 @@
             </form>
             
             <br/>
-            <button onClick="calcSub()""calcDisVatTotal()"   >Calculate Cost</button>
+            <button onClick="calcSub()""calcDisVatTotal()"  >Calculate Cost</button>
             <a role="button" href="Ebus1.php" >Clear Choice</a> <
     
     </body>
