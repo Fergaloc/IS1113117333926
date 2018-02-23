@@ -18,7 +18,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: CadetBlue;
 }
 
 li {
@@ -39,7 +39,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: Gold;
 }
 
 .active {
@@ -57,7 +57,7 @@ body {
     <body style="background-color:AliceBlue; text-align:center" >
         
                           <ul>
-  <li><a class="active" href="homepage.html">Home</a></li>
+  <li><a class="active" href="../homepage.html">Home</a></li>
   <li><a href="../cv_page1.html">CV</a></li>
   <li><a href="../Interests/Sport.html">Interests</a></li>
   <li><a href="../Ebusiness/Ebus1.php">Ebusiness</a></li>
