@@ -10,11 +10,59 @@ session_start();
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus_validator.js"></script>
+        
+        
+             <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+body {
+    background-color: AliceBlue;
+}
+</style>
+    
+        
     </head>
     
     
     <body style="background-color:AliceBlue; text-align:center" >
         
+                          <ul>
+  <li><a class="active" href="homepage.html">Home</a></li>
+  <li><a href="../cv_page1.html">CV</a></li>
+  <li><a href="../Interests/Sport.html">Interests</a></li>
+  <li><a href="../Ebusiness/Ebus1.php">Ebusiness</a></li>
+  </ul>
+    
         
         <h4>Please enter your payment details</h4>
         

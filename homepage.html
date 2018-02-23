@@ -3,28 +3,59 @@
     <head>
         <title>117333926</title>
         <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
+        
+        <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+</style>
+        
+        
+        
     </head>
     
-    <body>
-        <h1 class="mainheading">117333926 - IS1113 Project</h1>
-         
-        <a href="cv_page1.html" class="btn" >Curriculum Vitae</a>
+    <body style="background-color:AliceBlue; text-align:center" >
         
-        <br/>   
-        <br/>
-           
-        <a href="Interests/Sport.html" class="btn" >Interests</a>
-        
-        <br/>
-        <br/>
-        
-        <a href="Ebusiness/Ebus1.php" class="btn" >Ebusiness</a>
-        
-        <br/>
-        <br/>
-        
-        <a href="https://github.com/Fergaloc/IS1113117333926" class="btn">GitHub</a>
+        <ul>
+  <li><a class="active" href="homepage.html">Home</a></li>
+  <li><a href="cv_page1.html">CV</a></li>
+  <li><a href="Interests/Sport.html">Interests</a></li>
+  <li><a href="Ebusiness/Ebus1.php">Ebusiness</a>   </li>
+  
+  
+</ul>
+ <h1 class="mainheading">117333926 - IS1113 Project</h1>
  
+ <a href="https://github.com/Fergaloc/IS1113117333926" class="btn">GitHub</a>
     </body>
     
 </html>
