@@ -75,9 +75,6 @@ function validateDetails2(){
     
     if (name==""){
         alert("Please enter your Name");
-    }
-        else if (String(name).length<4){
-            
         alert("Please enter a valid name ");
         }
         else{ enablebtnProceed()

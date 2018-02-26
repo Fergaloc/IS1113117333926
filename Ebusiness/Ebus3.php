@@ -19,10 +19,11 @@ session_start();
         echo "<br/>";
          echo $_SESSION["Address2"]. ".";
          echo "<br/>";
+         echo $_SESSION["City"]. ".";
+         echo "<br/>";
          echo "<h3>Price Breakdown</h3>";
-        echo "Total is " . $_SESSION["total"] . ".";
+        echo "Total is $" . $_SESSION["total"] . ".";
         echo "<br/>";
-        echo "Total Vat is" . $_SESSION["Vat"] .".";
         ?>
         
         

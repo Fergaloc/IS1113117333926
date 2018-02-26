@@ -84,11 +84,10 @@ body {
             // Set session variables
             $_SESSION["total"] = $_POST["total"];
             $_SESSION["FullName"] = $_POST["FullName"];
-            $_SESSION["Vat"] = $_POST["Vat"];
             $_SESSION["Email"] = $_POST["Email"];
             $_SESSION["Address1"] = $_POST["Address1"];
             $_SESSION["Address2"] = $_POST["Address2"];
-            
+            $_SESSION["City"] = $_POST["City"];
             ?>
         
     </body>
