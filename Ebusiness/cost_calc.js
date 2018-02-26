@@ -11,9 +11,9 @@ function calcSub(){
      if(document.getElementById('salesforce').checked) {
       argSubTotal = 100;
      }else if(document.getElementById('gmail').checked) {
-      argSubTotal = 500;
+      argSubTotal = 50;
     }else if(document.getElementById('cloud9').checked) {
-        argSubTotal = 400;
+        argSubTotal = 40;
     }else if (document.getElementById('aws').checked) 
         argSubTotal = 300;
     
@@ -30,13 +30,13 @@ function calcDisVatTotal(parmSubTotal){
       totalPrice = 104.5
       
      }else if(document.getElementById('gmail').checked) {
-     DiscountAmt= 25;
-     VatAmt = 47.5;
-     totalPrice = 522.5
+     DiscountAmt= 2.5;
+     VatAmt = 4.8;
+     totalPrice = 52.3
     }else if(document.getElementById('cloud9').checked) {
-        DiscountAmt= 20;
-        VatAmt = 38;
-        totalPrice = 418
+        DiscountAmt= 2;
+        VatAmt = 3.8;
+        totalPrice = 42
     }else{
         DiscountAmt = 15;
         VatAmt= 27.5;
@@ -63,4 +63,23 @@ function enablebtnProceed(){
 
 function disablebtnProceed() {
     $('#btnProceed').prop('disabled', true);
+}
+
+
+
+function validateDetails2(){
+    
+    var name;
+    
+    name = document.getElementById("FullName").textContent;
+    
+    if (name==""){
+        alert("Please enter your Name");
+    }
+        else if (String(name).length<4){
+            
+        alert("Please enter a valid name ");
+        }
+        else{ enablebtnProceed()
+    }
 }

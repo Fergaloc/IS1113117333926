@@ -78,7 +78,7 @@ li a:hover:not(.active) {
               <br/>
               <label for="Email">
                 Email
-                <input type="text" id="Email" name="Email"/>
+                <input type="email" id="Email" name="Email"/>
               </label>
               <br/>
               <label for="Address1">
@@ -370,7 +370,7 @@ li a:hover:not(.active) {
               
               <label for="Cloud 9">
                 <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
-                Cloud 9 @ $400
+                Cloud 9 @ $40
               </label>
               
              
@@ -378,7 +378,7 @@ li a:hover:not(.active) {
               
               <label for="Gmail">
                 <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
-                Google @ $500
+                Gmail @ $50
               </label>
               
               
@@ -419,7 +419,7 @@ li a:hover:not(.active) {
             </form>
             
             <br/>
-            <button onClick="calcSub()""calcDisVatTotal()"  >Calculate Cost</button>
+            <button onClick="calcSub()""calcDisVatTotal()" "validateDetails2()" >Calculate Cost</button>
             <a role="button" href="Ebus1.php" >Clear Choice</a> 
     
     </body>
