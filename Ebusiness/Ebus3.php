@@ -26,9 +26,11 @@ session_start();
         echo "<br/>";
         ?>
         
+        <br/>
+        <br/>
         
         
-        
+        <a href="../Homepage.html" class="btn">Home</a>
         
     </body>
 </html>
