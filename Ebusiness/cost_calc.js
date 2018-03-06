@@ -21,7 +21,7 @@ function calcSub(){
 }
         
   
-
+/* Finding the price breakdown of each product*/
 function calcDisVatTotal(parmSubTotal){
     
      if(document.getElementById('salesforce').checked) {
