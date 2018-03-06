@@ -69,7 +69,7 @@ li a:hover:not(.active) {
 
             <form method="POST" action="Ebus2.php">
               
-        
+        <!-- Adding lables and text boxes for customer details/ -->
              
               <label for="FullName">
                 Full Name

@@ -78,7 +78,7 @@ body {
             </form>
             
             <br/>
-            <button onClick="validateDetails()">Validate</button>
+            <button onClick="validateDetails()">Validate</button> 
             
             <?php
             // Set session variables
